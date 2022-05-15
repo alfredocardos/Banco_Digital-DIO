@@ -1,1 +1,4 @@
 # Banco_Digital-DIO
+ Banco criado usando conceitos de associação, herança e polimorfismo. 
+  O sistema possui a classe teste para que adicione o objeto Cliente e seu contrutor para que adicione o nome e seu tipo "Pessoa fisica ou jurica", após isso o   segundo objeto é a Classe abstrada Conta que possuiu duas "filhas" conta poupança e conta corrente, assim ficará ao clitério do usuario escolher qual seu tipo de conta. O construtor do tipo da conta possui seu numero da conta, saldo e retorna o objeto "Cliente".
+  O terceiro contrutor é o objeto "Banco" que em seu construtor irá retornar os dois contrutores citados anteriormente.Abaixo irá ter o retorno do medodo que imprime os  dados encapsulados, em seguida o metodo para fazer movimentações dentro da conta e estará as escolhes de qual tipo de movimentação o usúario irá escolher a que melhor lhe agrada. 
